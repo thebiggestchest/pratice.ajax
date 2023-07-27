@@ -97,7 +97,7 @@ public class AjaxController {
         List<AjaxDTO> dtoList = DTOList();
 //        DTOlist 호출결과를 받아오고
         dtoList.add(ajaxDTO);
-        return dtoList
+        return dtoList;
     }
 //ResponseEntity란, httpentity를 상속받는, 결과 데이터와 HTTP 상태 코드를 직접 제어할 수 있는 클래스이다.
 //데이터와 코드를 함께 다룰수있음
